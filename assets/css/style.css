@@ -1,0 +1,149 @@
+
+h1{
+    font-size: 35px;
+  
+    color: #ffffff;
+    
+} 
+.name {
+    position: justify;
+    margin-right: 1px;
+    margin-left: 170px;
+    width: 330px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    margin-top: 30px;
+    padding-left: 24px;
+    padding-top: 24px;
+    border-top-width: 30px;
+    height: 67px;
+    
+}
+.underline
+{
+    border-bottom: #cccccc;
+    margin: 84px -20px 0px 5px;
+    border-style: solid;
+}
+.underline1
+{
+    border-bottom: #cccccc;
+    margin: 27px 30px 35px 30px;
+    border-style: solid;
+}
+.underline2
+{
+    background-color: #4aaaa5;
+    margin-top: -50px;
+    margin-bottom: -80px;
+    height: 20px;
+    width: 102%;
+}
+.underline3
+{
+    background-color: #4aaaa5;
+    margin-top: 460px;
+    margin-bottom: -80px;
+    height: 20px;
+    width: 102%;
+}
+li
+{
+    float: right;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 8px;
+    padding-top: 0;
+    border-right: 1px solid #bbb
+   
+} 
+ul{
+    overflow: hidden;
+    list-style-type: none;
+    margin: -55px 170px;
+}
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+.para1{
+    margin-top: 120px;
+    margin-bottom: 0px;
+    text-align: left;
+    position: absolute;
+    padding: 10px;
+    top: 150px;
+    left:390px;
+    width: 870px;
+    line-height: 30px;
+   
+}
+.para2
+{
+    margin-top: -80px;
+    left: 0px;
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 0px;
+    width: 1000px;
+    padding-left: 97px;
+    
+}
+.para3
+{
+    margin-top: 15px;
+    left: 0px;
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 15px;
+    width: 1070px;
+    padding-left: 27px;
+} 
+
+.about 
+{
+    margin-left: 30px;
+    color: #4aaaa5;
+}
+.about-me img
+{
+    height: 220px;
+    width: 180px;
+    margin-left: -140px;
+    margin-top: -70px;
+    margin-right: 20px;
+    float: left;
+}
+
+div 
+{
+    background-color: #ffffff;
+    width: 1110px;
+    padding-top: 40px;
+    margin: 40px 0px 150px 170px;
+}
+
+.footer-container
+{
+    margin: 70px 0px;
+}
+.footer-container1
+{
+    position: fixed;
+    margin: 70px 0px;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    padding-top: 20px;
+
+    height: 50px;
+    width: 100%;
+    background-color: #666666;
+}
+.about-me
+{
+    width: 400px;
+}
+
