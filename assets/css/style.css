@@ -6,8 +6,7 @@ h1{
     
 } 
 .name {
-    position: justify;
-    margin-right: 1px;
+    
     margin-left: 170px;
     width: 330px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -15,7 +14,6 @@ h1{
     margin-top: 30px;
     padding-left: 24px;
     padding-top: 24px;
-    border-top-width: 30px;
     height: 67px;
     
 }
@@ -50,11 +48,19 @@ h1{
 .underline4
 {
     background-color: #4aaaa5;
-    margin-top: -87px;
-    
+    margin-top: -90px;
+    margin-bottom: 0px;
     height: 20px;
     width: 102%;
     
+}
+.underline5
+{
+    background-color: #4aaaa5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 20px;
+    width: 102%;
 }
 li
 {
@@ -78,7 +84,6 @@ p{
 
 .para1{
     margin-top: 120px;
-    margin-bottom: 0px;
     text-align: left;
     position: absolute;
     padding: 10px;
@@ -91,10 +96,8 @@ p{
 .para2
 {
     margin-top: -80px;
-    left: 0px;
     position: relative;
     line-height: 30px;
-    margin-bottom: 0px;
     width: 1000px;
     padding-left: 97px;
     
@@ -102,10 +105,8 @@ p{
 .para3
 {
     margin-top: 15px;
-    left: 0px;
     position: relative;
     line-height: 30px;
-    margin-bottom: 15px;
     width: 1070px;
     padding-left: 27px;
 } 
@@ -124,36 +125,49 @@ p{
     margin-right: 20px;
     float: left;
 }
-
-div 
-{
+div{
     background-color: #ffffff;
     width: 1110px;
     padding-top: 40px;
     margin: 40px 0px 150px 170px;
 }
+.main
+{
+    background-color: #ffffff;
+    width: 1110px;
+    padding-top: 40px;
+    margin: 40px 0px 150px 170px;
+    height: 370px;
+}
 
+.image{
+    margin-top: 150px;
+}
 .footer-container
 {
-    margin: 70px 0px;
+    margin-bottom: -230px;
+    margin-top: 70px;
 }
 .footer-container1
 {
-    position: fixed;
-    margin: 70px 0px;
+    
+    margin-bottom: -230px;
+    margin-top: 70px;
 }
 .footer-container2
 {
     
-    margin: -105px 0px;
+    top:-300px;
+    
 }
+
 footer{
     text-align: center;
-    position: fixed;
+    
     padding-top: 20px;
-
+    
     height: 50px;
-    width: 100%;
+    width: 105%;
     background-color: #666666;
 }
 .about-me
@@ -162,7 +176,7 @@ footer{
 }
 input
 {
-    width: 94.5%;
+
     padding: 12px 0px;
     margin: 12px 35px;
     box-sizing: border-box;
@@ -170,14 +184,22 @@ input
 label 
 {
     margin: 0 35px;
+    color: #777777;
 }
 #message
 {
-    width: 94.5%;
+
     height: 190px;
-    padding: 12px 0px;
-    margin: 12px 35px;
-    box-sizing: border-box;
+    width: 1050px;
+  
+}
+#name
+{
+    width: 1050px;
+}
+#email
+{
+    width: 1050px;
 }
 #submit
 {
@@ -185,4 +207,39 @@ label
 
     background-color: #4aaaa5;
     color: #ffffff;
+}
+h3
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.text1  
+{
+    padding-top: 20px;
+    padding-right: 76px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    left: 200px;
+    top: 470px;
+    bottom: 300px;
+    width: 74px;
+    
+}
+.text2
+{
+    padding-top: 20px;
+    padding-right: 76px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    left: 520px;
+    top: 470px;
+    bottom: 300px;
+    width: 74px;
 }
